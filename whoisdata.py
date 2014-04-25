@@ -54,7 +54,6 @@ def get_whois_data(domain):
 	
 	#now contact the final whois server
 	msg = perform_whois(whois, domain)
-	
 	#return the reply
 	return msg
 
